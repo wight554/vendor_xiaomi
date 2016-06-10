@@ -37,6 +37,10 @@ PRODUCT_PACKAGES += \
     imssettings
 
 PRODUCT_PACKAGES += \
+    QtiTetherService \
+    ConnectivityExt
+
+PRODUCT_PACKAGES += \
     libtime_genoff
 
 $(call inherit-product, vendor/xiaomi/kenzo/kenzo-vendor-blobs.mk)
