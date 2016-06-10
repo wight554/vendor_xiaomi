@@ -22,10 +22,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
+    com.qualcomm.location \
     com.qualcomm.location.vzw_library \
     com.quicinc.wbc \
     com.quicinc.wbcservice \
-    com.qti.dpmframework
+    com.qti.dpmframework \
+    CNEService \
+    cneapiclient \
+    com.quicinc.cne \
+    dpmapi \
+    FingerprintServiceExtension \
+    shutdownlistener
 
 PRODUCT_PACKAGES += \
     libtime_genoff
