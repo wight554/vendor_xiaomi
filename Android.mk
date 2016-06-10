@@ -50,6 +50,32 @@ LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := ims
+LOCAL_MODULE_OWNER := kenzo
+LOCAL_SRC_FILES := proprietary/priv-app/ims/ims.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_CERTIFICATE := platform
+LOCAL_POST_INSTALL_CMD = \
+    @mkdir -p $(dir $(LOCAL_INSTALLED_MODULE))lib/arm64; \
+    ln -sf /system/vendor/lib64/libimscamera_jni.so $(dir $(LOCAL_INSTALLED_MODULE))lib/arm64/libimscamera_jni.so; \
+    ln -sf /system/vendor/lib64/libimsmedia_jni.so $(dir $(LOCAL_INSTALLED_MODULE))lib/arm64/libimsmedia_jni.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := imssettings
+LOCAL_MODULE_OWNER := kenzo
+LOCAL_SRC_FILES := proprietary/priv-app/imssettings/imssettings.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_CERTIFICATE := platform
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := shutdownlistener
 LOCAL_MODULE_OWNER := kenzo
 LOCAL_SRC_FILES := proprietary/app/shutdownlistener/shutdownlistener.apk

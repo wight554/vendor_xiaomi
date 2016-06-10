@@ -32,7 +32,9 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     dpmapi \
     FingerprintServiceExtension \
-    shutdownlistener
+    shutdownlistener \
+    ims \
+    imssettings
 
 PRODUCT_PACKAGES += \
     libtime_genoff
