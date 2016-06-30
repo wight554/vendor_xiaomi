@@ -29,6 +29,7 @@ PRODUCT_PACKAGES += \
     com.quicinc.wbc \
     com.quicinc.wbcservice \
     com.qti.dpmframework \
+    qti-telephony-common \
     CNEService \
     cneapiclient \
     com.quicinc.cne \
