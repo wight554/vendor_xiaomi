@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
+    qcrilmsgtunnel \
     xtra_t_app \
     com.qualcomm.location \
     com.qualcomm.location.vzw_library \
