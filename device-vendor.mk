@@ -47,9 +47,6 @@ PRODUCT_PACKAGES += \
     shutdownlistener
 
 PRODUCT_PACKAGES += \
-    FingerprintServiceExtension
-
-PRODUCT_PACKAGES += \
     libts_detected_face_hal \
     libts_face_beautify_hal
 
