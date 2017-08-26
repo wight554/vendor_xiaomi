@@ -16,8 +16,7 @@
 
 PRODUCT_PACKAGES += \
     TimeService \
-    Turbo \
-    QPerformance
+    Turbo
 
 PRODUCT_PACKAGES += \
     izat.xt.srv \
