@@ -276,4 +276,14 @@ LOCAL_MULTILIB := 32
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LEGACY_PROTOBUF_LIB := /system/vendor/lib64/legacy/libprotobuf-cpp-lite.so
+LEGACY_PROTOBUF_SYMLINK := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/libprotobuf-cpp-2.61.so
+$(LEGACY_PROTOBUF_SYMLINK): $(LOCAL_INSTALLED_MODULE)
+	@echo "Creating legacy protobuf lib link: $@"
+	@rm -rf $@
+	$(hide) ln -sf $(LEGACY_PROTOBUF_LIB) $@
+
+ALL_DEFAULT_INSTALLED_MODULES += $(LEGACY_PROTOBUF_SYMLINK)
+
 endif
