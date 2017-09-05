@@ -212,6 +212,16 @@ LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := QPerformance
+LOCAL_MODULE_OWNER := kenzo
+LOCAL_SRC_FILES := proprietary/framework/QPerformance.jar
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := qti-vzw-ims-internal
 LOCAL_MODULE_OWNER := kenzo
 LOCAL_SRC_FILES := proprietary/framework/qti-vzw-ims-internal.jar
