@@ -23,6 +23,7 @@ LOCAL_SRC_FILES := proprietary/app/shutdownlistener/shutdownlistener.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
@@ -33,6 +34,7 @@ LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
@@ -43,7 +45,7 @@ LOCAL_SRC_FILES := proprietary/priv-app/com.qualcomm.location/com.qualcomm.locat
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
@@ -54,7 +56,7 @@ LOCAL_SRC_FILES := proprietary/priv-app/CNEService/CNEService.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
@@ -65,12 +67,12 @@ LOCAL_SRC_FILES := proprietary/priv-app/ims/ims.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
 IMS_LIBS := libimscamera_jni.so libimsmedia_jni.so
-IMS_SYMLINKS := $(addprefix $(TARGET_OUT_APPS_PRIVILEGED)/ims/lib/arm64/,$(notdir $(IMS_LIBS)))
+IMS_SYMLINKS := $(addprefix $(TARGET_OUT_VENDOR_APPS)/ims/lib/arm64/,$(notdir $(IMS_LIBS)))
 $(IMS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	@echo "IMS lib link: $@"
 	@mkdir -p $(dir $@)
@@ -86,7 +88,7 @@ LOCAL_SRC_FILES := proprietary/priv-app/imssettings/imssettings.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
@@ -97,7 +99,7 @@ LOCAL_SRC_FILES := proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
