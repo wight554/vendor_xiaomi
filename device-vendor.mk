@@ -44,8 +44,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
-    qcrilmsgtunnel \
-    shutdownlistener
+    qcrilmsgtunnel
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
