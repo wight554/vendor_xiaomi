@@ -12,28 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/bin,system/vendor/bin)
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/etc/cne,system/etc/cne)
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/etc/dpm,system/etc/dpm)
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/etc/firmware,system/etc/firmware)
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/etc/permissions,system/vendor/etc/permissions)
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/lib,system/vendor/lib)
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/lib64,system/vendor/lib64)
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/vendor/lib,system/vendor/lib)
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/vendor/lib64,system/vendor/lib64)
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/vendor/bin,system/vendor/bin)
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/vendor/etc,system/vendor/etc)
-
-PRODUCT_COPY_FILES += vendor/xiaomi/kenzo/proprietary/vendor/qcril.db:system/vendor/qcril.db
-
-PRODUCT_COPY_FILES += vendor/xiaomi/kenzo/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt
+PRODUCT_COPY_FILES += \
+$(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/etc,system/etc) \
+$(call find-copy-subdir-files,*,vendor/xiaomi/kenzo/proprietary/vendor,system/vendor)
