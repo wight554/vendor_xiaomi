@@ -20,7 +20,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     izat.xt.srv \
-    com.qualcomm.location.vzw_library \
     com.qti.location.sdk
 
 PRODUCT_PACKAGES += \

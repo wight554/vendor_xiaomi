@@ -115,17 +115,6 @@ LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := com.qualcomm.location.vzw_library
-LOCAL_MODULE_OWNER := kenzo
-LOCAL_SRC_FILES := proprietary/framework/com.qualcomm.location.vzw_library.jar
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_CERTIFICATE := PRESIGNED
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne
 LOCAL_MODULE_OWNER := kenzo
 LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.jar
