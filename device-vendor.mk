@@ -15,8 +15,7 @@
 # Pick up overlay for features that depend on non-open-source files
 
 PRODUCT_PACKAGES += \
-    TimeService \
-    QPerformance
+    TimeService
 
 PRODUCT_PACKAGES += \
     izat.xt.srv \
