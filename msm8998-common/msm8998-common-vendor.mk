@@ -525,6 +525,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libldacBT_abr.so:system/vendor/lib64/libldacBT_abr.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libldacBT_enc.so:system/vendor/lib64/libldacBT_enc.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/liblearningmodule.so:system/vendor/lib64/liblearningmodule.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
