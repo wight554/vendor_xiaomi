@@ -19,7 +19,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     izat.xt.srv \
-    com.qti.location.sdk
+    com.qti.location.sdk \
+    com.qualcomm.location
 
 PRODUCT_PACKAGES += \
     CNEService \
