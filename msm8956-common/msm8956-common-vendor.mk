@@ -238,6 +238,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
@@ -259,6 +261,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libhwdaphal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwdaphal.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libldacBT_abr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libldacBT_abr.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libldacBT_enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libldacBT_enc.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qgl.so \
@@ -389,6 +393,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libalarmservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalarmservice_jni.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
