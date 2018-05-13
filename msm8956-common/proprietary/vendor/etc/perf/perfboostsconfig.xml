@@ -49,22 +49,24 @@
 
     <!--Vertical Scroll boost-->
         <!-- SCHEDBOOST resource opcode, value-->
-        <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ for 0 resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ for 1 resource opcode, value-->
         <!-- SCHED_PREFER_IDLE resource opcode, value-->
 
         <!-- Type="1", Vertical Scroll boost -->
         <Config
             Id="0x00001080" Type="1" Enable="true" Target="msm8952"
-            Resources="0x40C00000, 0x1, 0x40800000, 0x708, 0x40C04000, 0x1" />
+            Resources="0x40C00000, 0x1, 0x40800100, 0x3f9, 0x40800000, 0x4a6, 0x40C04000, 0x1" />
 
     <!--Horizontal Scroll boost-->
         <!-- SCHEDBOOST resource opcode, value-->
-        <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ for 0 resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ for 1 resource opcode, value-->
         <!-- SCHED_PREFER_IDLE resource opcode, value-->
 
         <!-- Type="2", Horizontal Scroll boost -->
         <Config
             Id="0x00001080" Type="2" Enable="true" Target="msm8952"
-            Resources="0x40C00000, 0x1, 0x40800000, 0x708, 0x40C04000, 0x1" />
+            Resources="0x40C00000, 0x1, 0x40800100, 0x3f9, 0x40800000, 0x4a6, 0x40C04000, 0x1" />
     </PerfBoost>
 </BoostConfigs>
