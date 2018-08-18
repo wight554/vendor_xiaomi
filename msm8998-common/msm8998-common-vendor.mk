@@ -491,6 +491,7 @@ PRODUCT_PACKAGES += \
     libantradio \
     libgpustats \
     libsdm-disp-vndapis \
+    ims \
     uceShimService \
     qcrilmsgtunnel \
     QtiTelephonyService \
