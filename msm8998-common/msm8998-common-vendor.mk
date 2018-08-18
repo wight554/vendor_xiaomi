@@ -493,6 +493,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     ims \
     uceShimService \
+    CNEService \
     qcrilmsgtunnel \
     QtiTelephonyService \
     datastatusnotification \
