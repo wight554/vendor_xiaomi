@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libMiCameraHal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiCameraHal.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libblurbuster.so:system/lib/libblurbuster.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libfiltergenerator.so:system/lib/libfiltergenerator.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libicuuc-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicuuc-v27.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libjni_blurbuster.so:system/lib/libjni_blurbuster.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libjni_chromaflash.so:system/lib/libjni_chromaflash.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libjni_dualcamera.so:system/lib/libjni_dualcamera.so \
@@ -41,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/lib/libjni_trueportrait.so:system/lib/libjni_trueportrait.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libjni_truescanner_v2.so:system/lib/libjni_truescanner_v2.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libjni_ubifocus.so:system/lib/libjni_ubifocus.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libminikin-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminikin-v27.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libmorpho_group_portrait.so:system/lib/libmorpho_group_portrait.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libmorpho_groupshot.so:system/lib/libmorpho_groupshot.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
