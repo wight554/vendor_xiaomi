@@ -600,7 +600,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libantradio \
     libgpustats \
-    libsdm-disp-vndapis \
     QtiTelephonyService \
     datastatusnotification \
     CNEService \
