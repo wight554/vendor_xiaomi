@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/chiron/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/chiron/proprietary/vendor/etc/spk.wav:$(TARGET_COPY_OUT_VENDOR)/etc/spk.wav \
+    vendor/xiaomi/chiron/proprietary/vendor/etc/thermal-engine-8998.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8998.conf \
     vendor/xiaomi/chiron/proprietary/vendor/etc/ultrasound.wav:$(TARGET_COPY_OUT_VENDOR)/etc/ultrasound.wav \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libactuator_chiron_imx386_ak7372_semco.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_chiron_imx386_ak7372_semco.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_4K_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_chiron_imx386_semco_4K_preview.so \
