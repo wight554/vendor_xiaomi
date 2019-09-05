@@ -35,6 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libicuuQ.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicuuQ.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libminikiQ.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminikiQ.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
