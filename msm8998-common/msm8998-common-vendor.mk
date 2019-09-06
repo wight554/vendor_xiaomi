@@ -564,7 +564,6 @@ PRODUCT_PACKAGES += \
     libgpustats \
     libsdm-disp-vndapis \
     SoterService \
-    CNEService \
     WfdService \
     ims \
     qcrilmsgtunnel \
