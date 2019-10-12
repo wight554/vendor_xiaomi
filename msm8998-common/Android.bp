@@ -37,24 +37,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudioparsers",
-	owner: "xiaomi",
-	strip: {
-		none:true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaudioparsers.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libaudioparsers.so"],
-		},
-	},
-	compile_multilib: "both",
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libgpustats",
 	owner: "xiaomi",
 	strip: {
@@ -98,6 +80,17 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
+}
+
+android_app_import {
+	name: "CNEService",
+	owner: "xiaomi",
+	apk: "proprietary/priv-app/CNEService/CNEService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
 }
 
 android_app_import {
